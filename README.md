@@ -11,7 +11,7 @@ A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) that will highlight a
 3. Create a new bookmark and paste the code into the field you would normally enter a URL
 4. Open any webpage and click the bookmark 
 
-  Any elements in the page with a `data-test-id` will be highlighted and their ID displayed
+  Any elements in the page with a `data-test-id` will be highlighted and their ID displayed alongside.
 
 ## Why would I want this?
 

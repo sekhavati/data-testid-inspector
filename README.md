@@ -1,7 +1,5 @@
 # data-test-id-highlighter
 
-Highlight elements with data-test-id's in your web page
-
 ## What is this?
 
 A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) that will highlight elements in your web page that have a `data-test-id` attribute:

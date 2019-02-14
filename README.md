@@ -1,0 +1,26 @@
+# data-test-id-highlighter
+
+Highlight elements with data-test-id's in your web page
+
+## What is this?
+
+A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) that will highlight elements in your web page that have a `data-test-id` attribute:
+
+## How do I use it?
+
+1. Copy the code from [index.js](https://github.com/sekhavati/data-test-id-highlighter/blob/master/index.js) to your clipboard
+2. Open a browser that has support for bookmarklets (eg: Chrome)
+3. Create a new bookmark and paste the code into the field you would normally enter a URL
+4. Open any webpage and click the bookmark 
+
+  Any elements in the page with a `data-test-id` will be highlighted and their ID displayed
+
+## Why would I want this?
+
+Automation testers that write end-to-end tests can often benefit from interacting with elements in the page via `data-test-id`’s that remain constant regardless of whether the underlying element changes type (eg: from a link to a button), doing so ensure the tests they write are less brittle. This tool will help them quickly visualise what is available in any given page, {…:heart:}
+
+From a developers perspective it can also be useful. As your application grows, you often end up with complex components that are built from other smaller ones and there is no guarantee that IDs remain unique as more are added to your codebase. This bookmarklet can go someway to quickly identifying whether a duplicate ID is present.
+
+## Feature Requests
+
+If there's anything you'd like to see or just have some suggestions feel free to open an issue with the details

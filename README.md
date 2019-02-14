@@ -2,7 +2,7 @@
 
 ## What is this?
 
-A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) that will highlight elements in your web page that have a `data-test-id` attribute:
+A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) that will highlight all elements in your web page that have a `data-test-id` attribute.
 
 ## How do I use it?
 

@@ -4,7 +4,7 @@
 
 A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) that will highlight all elements in your web page that have a `data-test-id` attribute.
 
-![demo](https://media.giphy.com/media/3BjrTC4BMrwZRdeIRj/giphy.gif)
+![demo](https://media.giphy.com/media/YXhVlKSlB5GbygMjMH/giphy.gif)
 
 ## How do I use it?
 

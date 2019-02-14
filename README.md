@@ -4,6 +4,8 @@
 
 A [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) that will highlight all elements in your web page that have a `data-test-id` attribute.
 
+![](data-test-id-highlighter/data-test-id-highlighter-demo.gif)
+
 ## How do I use it?
 
 1. Copy the code from [index.js](https://github.com/sekhavati/data-test-id-highlighter/blob/master/index.js) to your clipboard

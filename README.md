@@ -1,4 +1,4 @@
-# data-test-id-highlighter
+# data-testid-inspector
 
 ## What is this?
 
@@ -14,9 +14,6 @@ From a developers perspective it can also be useful. As your application grows, 
 
 ## How do I use it?
 
-1. Copy the code from [index.js](https://github.com/sekhavati/data-testid-inspector/blob/master/index.js) to your clipboard
-2. Open a browser that has support for bookmarklets (eg: Chrome)
-3. Create a new bookmark and paste the code into the field you would normally enter a URL
-4. Open any webpage and click the bookmark
+Automation testers that write end-to-end tests can often benefit from targeting/interacting with elements in the page via `data-testid`’s that remain constant instead of relying on the underlying element type or classes etc that are susceptible to change. Doing so ensure the tests they write are less brittle. This tool will help them quickly visualise what is available in any given page and allow them to write tests faster {…:heart:}
 
 Any elements in the page with a `data-testid` attribute will be highlighted and their ID displayed alongside.

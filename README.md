@@ -21,6 +21,6 @@ From a developers perspective it can also be useful. As your application grows, 
 
 Any elements in the page with a `data-testid` attribute will be highlighted and their ID displayed alongside.
 
-## Can I use a different test id attribute?
+## Can I use a different test ID attribute?
 
-If you use a different attribute name for your test id's you can configure this [here](https://github.com/sekhavati/data-test-id-highlighter/blob/master/index.js#L2)
+If you use a different attribute name for your test id's you can configure this [here](https://github.com/sekhavati/data-testid-inspector/blob/master/index.js#L2)

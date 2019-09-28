@@ -1,10 +1,10 @@
 javascript: (function() {
+  var testIdAttribute = "data-testid";
   var style = document.createElement("style");
   style.type = "text/css";
-  style.innerHTML =
-    '.data-test-id-highlight { border: 2px solid hotpink; } .data-test-id-highlight::after{ content: "\\A data-test-id: \\A " attr(data-test-id); color: hotpink; white-space: pre; }';
+  style.innerHTML = `.data-testid-inspector { border: 2px solid hotpink; } .data-testid-inspector::after{ content: "\\A ${testIdAttribute}: \\A " attr(${testIdAttribute}); color: hotpink; white-space: pre; font-style: italic; font-weight: bold; }`;
   document.getElementsByTagName("head")[0].appendChild(style);
-  document.querySelectorAll("[data-test-id]").forEach(element => {
-    element.classList.toggle("data-test-id-highlight");
+  document.querySelectorAll(`[${testIdAttribute}]`).forEach(element => {
+    element.classList.toggle("data-testid-inspector");
   });
 })();

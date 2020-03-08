@@ -2,7 +2,7 @@
 
 ## What is this?
 
-A [bookmark](https://en.wikipedia.org/wiki/Bookmarklet) that will show you what elements in your web page have a `data-testid` attribute.
+A snippet of code you can save as a [bookmark](https://en.wikipedia.org/wiki/Bookmarklet) that will show what elements in the page have a `data-testid` attribute.
 
 ![demo](https://i.imgur.com/TFMio71.gif)
 

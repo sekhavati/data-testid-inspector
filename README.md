@@ -22,4 +22,9 @@ Automation testers that write end-to-end tests can often benefit from targeting/
 
 ## Can I use a different test ID attribute?
 
-If you use a different attribute name for your test id's you can configure this [here](https://github.com/sekhavati/data-testid-inspector/blob/master/index.js#L2)
+Yes. If you use a different attribute name for your test id's you can substitute it [here](https://github.com/sekhavati/data-testid-inspector/blob/master/index.js#L2) before saving the bookmark
+
+
+## Did this tool help you?
+
+Give the repo a :star: to show your support!
